@@ -7,4 +7,5 @@ Termux:
 Linux:
   Увидишь сам :)
 
-#SECURITY_GANG//
+SECURITY_GANG//
+=
