@@ -19,7 +19,7 @@ while True:
         tmx_1 = input('==> ')
         if tmx_1 == "1":
             print('[+] Please Wait!')
-            os.system('apt-get install tor wget curl git >> install.log')
+            os.system('apt-get install tor wget curl git -y >> install.log')
             os.system('termux-setup-storage')
             os.system('rm install.log')
             print('[+] INSTALLED!')
@@ -58,7 +58,7 @@ while True:
     ''')
         tor_br_2 = input('==> ')
         if tor_br_2 == "1":
-            os.system('sudo apt-get install tor proxychains4 wget gcc make git xz-utils >> install.log')
+            os.system('sudo apt-get install tor proxychains4 wget gcc make git xz-utils -y >> install.log')
             os.system('rm install.log')
             os.system('sudo service tor start')
             tor_ip = input('Show your Tor IP? (y/n): ')
